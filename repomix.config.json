@@ -1,0 +1,49 @@
+{
+  "output": {
+    "filePath": "openoffice-repomix-output.txt"
+  },
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true,
+    "customPatterns": [
+      "**/test/**",
+      "**/tests/**",
+      "**/unittest/**",
+      "**/workben/**",
+      "**/ext_libraries/**",
+      "**/ext_sources/**",
+      "**/external/**",
+      "**/*.o",
+      "**/*.so",
+      "**/*.dylib",
+      "**/*.dll",
+      "**/*.exe",
+      "**/*.jar",
+      "**/*.zip",
+      "**/*.tar",
+      "**/*.gz",
+      "**/*.tab",
+      "**/*.dtd",
+      "**/StdAfx.h",
+      "**/string_ut.cxx",
+      "**/helpcontent2/**",
+      "**/default_images/**",
+      "**/ooo_custom_images/**",
+      "**/*.png",
+      "**/*.jpg",
+      "**/*.gif",
+      "**/*.ico"
+    ]
+  },
+  "include": [
+    "main/sc/source/**/*.cxx",
+    "main/sc/source/**/*.hxx", 
+    "main/sc/inc/**/*.hxx",
+    "main/sw/source/**/*.cxx",
+    "main/sw/source/**/*.hxx",
+    "main/sw/inc/**/*.hxx",
+    "main/sd/source/**/*.cxx",
+    "main/sd/source/**/*.hxx",
+    "main/sd/inc/**/*.hxx"
+  ]
+} 
